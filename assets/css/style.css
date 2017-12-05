@@ -22,6 +22,458 @@ p{
 
 }
 
+
+
+#Me{
+    /*float: left;*/
+    text-align: center;
+    background: #4aaaa5;
+    margin-left: 120px;
+    color: #fff;
+    font-weight: bold;
+    z-index: +1;
+    position: absolute;
+    width: 20%;
+    font-size: 30px
+}
+
+
+
+#links{
+    float:right;
+    text-align: right;
+    width: 100%;
+    padding-right: 120px;
+}
+
+header{
+    padding: 25px;
+    margin-bottom: 20px;
+    background: #fff;
+    width: 80%;
+    height: 100px;
+    border-bottom: solid #ccc;
+
+
+}
+
+
+footer{
+    padding:5px;
+    margin: 0px 0px 0px 0px;
+    background: #666666;
+    clear: both;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-top: solid #4aaaa5;
+    border-top-width: 6px;
+    text-align: center;
+}
+
+#footerp{
+    color: white;
+}
+
+div{
+    padding: 0px 100px 0px 100px;
+}
+
+.clearfix: after{
+    clear: both;
+    content: "";
+
+}
+
+
+
+.aboutme{
+    /*clear: both;*/
+    width: 600px;
+    background-color: #fff;
+    float: left;
+    margin: 20px 10px 30px 20px;
+    padding: 50px;
+    color: #4aaaa5;
+}
+
+#img {
+    float: left;
+    margin: 25px;
+    width: 160px;
+    height: 160px;
+}
+
+#aboutmetext {
+    color: #4aaaa5;
+    font-size: 250%;
+    margin: 10px 0px 0px 10px;
+    
+}
+
+.connectwithme{
+    width: 300px;
+    background-color: #fff;
+    float: right;
+    padding: 50px;
+    margin: 20px 30px 20px 30px;
+
+}
+
+#connectwithtext {
+    color: #4aaaa5;
+    margin: 0px;
+    
+}
+
+.icon{
+    width:50px;
+
+}
+
+.portfolioicon{
+    width:210px;
+}
+
+.contactline-separator{
+height:1px;
+background:#000000;
+margin: 20px 0px 20px 0px;
+border-bottom:2px solid #e0e0e0;
+}
+
+.titleline-separator{
+height:1px;
+background:#000000;
+margin: 10px 0px 7px 0px;
+border-bottom:2.5px solid #e0e0e0;
+}
+
+#form{
+
+    font-family: Helvetica;
+
+}
+
+.button {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+}
+
+
+
+@media screen and (max-width: 980px) {
+  body {
+    background-color: green;
+  }
+
+  .wrapper {
+    /* Box-model */
+    width: 100%;
+    padding: 20px;
+  }
+
+#Me{
+    /*float: left;*/
+    text-align: center;
+    background: #4aaaa5;
+    margin-left: 120px;
+    color: #fff;
+    font-weight: bold;
+    z-index: +1;
+    position: absolute;
+    width: 20%;
+    font-size: 30px
+}
+
+
+
+#links{
+    float:right;
+    text-align: right;
+    width: 100%;
+    padding-right: 120px;
+}
+
+header{
+    padding: 25px;
+    margin-bottom: 20px;
+    background: #fff;
+    width: 80%;
+    height: 100px;
+    border-bottom: solid #ccc;
+
+
+}
+
+
+footer{
+    padding:5px;
+    margin: 0px 0px 0px 0px;
+    background: #666666;
+    clear: both;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-top: solid #4aaaa5;
+    border-top-width: 6px;
+    text-align: center;
+}
+
+#footerp{
+    color: white;
+}
+
+div{
+    padding: 0px 100px 0px 100px;
+}
+
+.clearfix: after{
+    clear: both;
+    content: "";
+
+}
+
+
+
+.aboutme{
+    /*clear: both;*/
+    width: 600px;
+    background-color: #fff;
+    float: left;
+    margin: 20px 10px 30px 20px;
+    padding: 50px;
+    color: #4aaaa5;
+}
+
+#img {
+    float: left;
+    margin: 25px;
+    width: 160px;
+    height: 160px;
+}
+
+#aboutmetext {
+    color: #4aaaa5;
+    font-size: 250%;
+    margin: 10px 0px 0px 10px;
+    
+}
+
+.connectwithme{
+    width: 300px;
+    background-color: #fff;
+    float: right;
+    padding: 50px;
+    margin: 20px 30px 20px 30px;
+
+}
+
+#connectwithtext {
+    color: #4aaaa5;
+    margin: 0px;
+    
+}
+
+.icon{
+    width:50px;
+
+}
+
+.portfolioicon{
+    width:210px;
+}
+
+.contactline-separator{
+height:1px;
+background:#000000;
+margin: 20px 0px 20px 0px;
+border-bottom:2px solid #e0e0e0;
+}
+
+.titleline-separator{
+height:1px;
+background:#000000;
+margin: 10px 0px 7px 0px;
+border-bottom:2.5px solid #e0e0e0;
+}
+
+#form{
+
+    font-family: Helvetica;
+
+}
+
+.button {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: blue;
+  }
+
+  .wrapper {
+    /* Box-model */
+    width: 100%;
+    padding: 20px;
+  }
+
+#Me{
+    /*float: left;*/
+    text-align: center;
+    background: #4aaaa5;
+    margin-left: 120px;
+    color: #fff;
+    font-weight: bold;
+    z-index: +1;
+    position: absolute;
+    width: 20%;
+    font-size: 30px
+}
+
+
+
+#links{
+    float:right;
+    text-align: right;
+    width: 100%;
+    padding-right: 120px;
+}
+
+header{
+    padding: 25px;
+    margin-bottom: 20px;
+    background: #fff;
+    width: 80%;
+    height: 100px;
+    border-bottom: solid #ccc;
+
+
+}
+
+
+footer{
+    padding:5px;
+    margin: 0px 0px 0px 0px;
+    background: #666666;
+    clear: both;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    border-top: solid #4aaaa5;
+    border-top-width: 6px;
+    text-align: center;
+}
+
+#footerp{
+    color: white;
+}
+
+div{
+    padding: 0px 100px 0px 100px;
+}
+
+.clearfix: after{
+    clear: both;
+    content: "";
+
+}
+
+
+
+.aboutme{
+    /*clear: both;*/
+    width: 600px;
+    background-color: #fff;
+    float: left;
+    margin: 20px 10px 30px 20px;
+    padding: 50px;
+    color: #4aaaa5;
+}
+
+#img {
+    float: left;
+    margin: 25px;
+    width: 160px;
+    height: 160px;
+}
+
+#aboutmetext {
+    color: #4aaaa5;
+    font-size: 250%;
+    margin: 10px 0px 0px 10px;
+    
+}
+
+.connectwithme{
+    width: 300px;
+    background-color: #fff;
+    float: right;
+    padding: 50px;
+    margin: 20px 30px 20px 30px;
+
+}
+
+#connectwithtext {
+    color: #4aaaa5;
+    margin: 0px;
+    
+}
+
+.icon{
+    width:50px;
+
+}
+
+.portfolioicon{
+    width:210px;
+}
+
+.contactline-separator{
+height:1px;
+background:#000000;
+margin: 20px 0px 20px 0px;
+border-bottom:2px solid #e0e0e0;
+}
+
+.titleline-separator{
+height:1px;
+background:#000000;
+margin: 10px 0px 7px 0px;
+border-bottom:2.5px solid #e0e0e0;
+}
+
+#form{
+
+    font-family: Helvetica;
+
+}
+
+.button {
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 20px;
+    padding: 5px 10px 5px 10px;
+}
+
+@media screen and (max-width: 640px) {
+  body {
+    background-color: pink;
+  }
+
+  .wrapper {
+    width: 100%;
+    padding: 20px;
+  }
+
 #Me{
     /*float: left;*/
     text-align: center;
