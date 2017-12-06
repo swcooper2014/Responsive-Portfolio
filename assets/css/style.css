@@ -170,8 +170,7 @@ border-bottom:2.5px solid #e0e0e0;
   }
 
   .wrapper {
-    /* Box-model */
-    width: 980px;
+    width: 1024px;
     padding: 20px;
   }
 
@@ -469,7 +468,7 @@ border-bottom:2.5px solid #e0e0e0;
     background-color: pink;
   }
   .wrapper {
-    width: 640px;
+    width: 692px;
     padding: 20px;
   }
 
